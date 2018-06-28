@@ -1,4 +1,4 @@
-package cz.soft.vojta_kudlacek.testkotlin
+package cz.soft.vojta_kudlacek.VazenyPrumerAndroid
 
 import android.content.res.ColorStateList
 import android.graphics.Color

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cz.soft.vojta_kudlacek.testkotlin">
+    package="cz.soft.vojta_kudlacek.VazenyPrumerAndroid">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="cz.soft.vojta_kudlacek.VazenyPrumerAndroid.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

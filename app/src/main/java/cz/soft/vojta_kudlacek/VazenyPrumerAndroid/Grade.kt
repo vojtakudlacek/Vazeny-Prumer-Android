@@ -1,4 +1,4 @@
-package cz.soft.vojta_kudlacek.testkotlin
+package cz.soft.vojta_kudlacek.VazenyPrumerAndroid
 
 class Grade(_grade:Byte,_weight:Byte) {
     private var grade : Byte = -1

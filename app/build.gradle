@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "cz.soft.vojta_kudlacek.testkotlin"
+        applicationId "cz.soft.vojta_kudlacek.VazenyPrumerAndroid"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
