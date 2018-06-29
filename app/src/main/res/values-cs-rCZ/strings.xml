@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulačka váženého průměru</string>
+    <string name="grade">Známka</string>
+    <string name="weight">Váha</string>
+    <string name="diameter">Nejsou přidány žádné známky zatím</string>
+    <string name="add">Přidat</string>
+    <string name="clearAll">Smazat vše</string>
+</resources>

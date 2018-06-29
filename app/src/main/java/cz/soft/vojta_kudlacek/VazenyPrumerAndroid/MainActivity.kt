@@ -50,6 +50,18 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun clearAll(view: View)
+    {
+        diameter.text = getString(R.string.diameter)
+        var diameterTW = findViewById<TextView>(R.id.diameter)
+        diameterTW.setTextColor(ColorStateList.valueOf(Color.BLACK))
+        var gradesList = findViewById<TextView>(R.id.gradeList)
+        var weightList = findViewById<TextView>(R.id.weightList)
+        gradesList.text = getString(R.string.grade) + ": \n"
+        weightList.text = getString(R.string.weight) + ": \n"
+        array = arrayOf<Grade>()
+    }
+
     fun getDiameter() : Float
     {
         var diameter:Float = 0.0f
